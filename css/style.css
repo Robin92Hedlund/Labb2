@@ -1,0 +1,84 @@
+#wrap { max-width: 900px;
+margin-left:auto;
+margin-right:auto;
+}
+
+ul {
+	float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+	display: inline;
+    list-style-type: none;
+    
+}
+
+.test{
+	float: left;
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+.test2{
+	margin-top: 20px;
+	float: left;
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+a:hover{
+background-color: orange;
+}
+.content{
+ 
+max-width: 70%;
+margin-top: 20px;
+margin-right:20px;
+margin-left:5px;
+padding:8px;
+float: left;
+border:3px solid black;
+border-radius:8px;
+
+}
+.logo{
+max-width: 100%;
+float: left;
+}
+#batman{
+max-width:100%;
+float: left;
+}
+.Robin{
+max-width: 80%;
+max-height: 80%;
+float: left;
+}
+.joker{
+max-width: 50%;
+float: left;
+}
+
+
+/*=========== MEDIA QUERIES ===========*/
+
+@media all and (max-width: 700px){
+	.test2{
+		width:150px;
+	}
+
+} 	
+
+
+
+
